@@ -1,0 +1,21 @@
+{
+  "name": "babylonjs-vrm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": ">=16.17.0",
+    "pnpm": ">=7.14.0"
+  },
+  "scripts": {
+    "ci-publish": "pnpm ar-changelog publish",
+    "release": "pnpm ar-changelog release"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@changesets/cli": "^2.26.2",
+    "ar-changelog": "^4.0.2"
+  }
+}

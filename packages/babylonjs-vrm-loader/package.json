@@ -1,0 +1,59 @@
+{
+  "name": "babylonjs-vrm-loader",
+  "version": "0.0.9",
+  "keywords": [
+    "babylon.js",
+    "VRM"
+  ],
+  "files": [
+    "dist/**/*",
+    "!dist/test/**/*",
+    "README.md",
+    "package.json"
+  ],
+  "typings": "dist/index.d.ts",
+  "main": "dist/index.umd.js",
+  "scripts": {
+    "build:mtoon": "pnpm -F babylonjs-mtoon-material run build",
+    "build": "pnpm run build:mtoon && webpack",
+    "build:test": "pnpm run build:mtoon && webpack --config webpack.test.config.js",
+    "dev": "pnpm run build:mtoon && webpack serve --config webpack.test.config.js"
+  },
+  "devDependencies": {
+    "@babylonjs/core": "6.8.0",
+    "@babylonjs/gui": "6.8.0",
+    "@babylonjs/gui-editor": "6.8.0",
+    "@babylonjs/inspector": "6.8.0",
+    "@babylonjs/loaders": "6.8.0",
+    "@babylonjs/materials": "6.8.0",
+    "@babylonjs/serializers": "6.8.0",
+    "@semantic-release/git": "^10.0.1",
+    "@types/node": "^15.12.2",
+    "@typescript-eslint/eslint-plugin": "~5.16.0",
+    "@typescript-eslint/parser": "~5.16.0",
+    "ansi-html-community": "^0.0.8",
+    "babylonjs-gltf2interface": "6.8.0",
+    "babylonjs-mtoon-material": "workspace:*",
+    "cz-conventional-changelog": "3.3.0",
+    "eslint": "^8.11.0",
+    "eslint-config-prettier": "~8.5.0",
+    "eslint-plugin-import": "~2.26.0",
+    "eslint-plugin-prettier": "~4.0.0",
+    "events": "^3.3.0",
+    "gh-pages": "^4.0.0",
+    "html-entities": "^2.4.0",
+    "prettier": "^2.7.1",
+    "semantic-release": "^19.0.3",
+    "ts-loader": "^9.2.6",
+    "tslib": "^2.4.0",
+    "typescript": "~4.6.2",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.9.3",
+    "webpack-merge": "^5.8.0"
+  },
+  "peerDependencies": {
+    "@babylonjs/core": "6.8.0",
+    "@babylonjs/loaders": "6.8.0"
+  }
+}
