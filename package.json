@@ -9,13 +9,16 @@
   },
   "scripts": {
     "ci-publish": "pnpm ar-changelog publish",
-    "release": "pnpm ar-changelog release"
+    "release": "pnpm ar-changelog release",
+    "cz": "git-cz"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "devDependencies": {
     "@changesets/cli": "^2.26.2",
-    "ar-changelog": "^4.0.2"
+    "@manypkg/get-packages": "^2.2.0",
+    "ar-changelog": "^4.0.2",
+    "git-cz": "^4.9.0"
   }
 }
