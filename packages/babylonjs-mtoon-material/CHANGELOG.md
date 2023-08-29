@@ -1,31 +1,3 @@
-## [0.0.9](https://github.com/spencer17x/arca/compare/babylonjs-mtoon-material@0.0.8...babylonjs-mtoon-material@0.0.9) (2023-07-21)
-
-
-### Features
-
-* **babylonjs-mtoon-material:** update webpack config ([0bf9389](https://github.com/spencer17x/arca/commit/0bf9389df3dabaa9d2bd76a7f4b7134f020bc3b7))
-
-
-
-## [0.0.8](https://github.com/spencer17x/arca/compare/babylonjs-mtoon-material@0.0.7...babylonjs-mtoon-material@0.0.8) (2023-07-21)
-
-
-
-## [0.0.7](https://github.com/spencer17x/arca/compare/babylonjs-mtoon-material@0.0.6...babylonjs-mtoon-material@0.0.7) (2023-07-21)
-
-
-### Bug Fixes
-
-* **babylonjs-mtoon-material:** update vite ([1c07511](https://github.com/spencer17x/arca/commit/1c075114f31447260b4b4011cb4ecc4aefe8202b))
-
-
-### Features
-
-* **babylonjs-mtoon-material:** update script ([9f6d378](https://github.com/spencer17x/arca/commit/9f6d3781a6d747d19dff7a50bc2179ecbe604da5))
-* **babylonjs-mtoon-material:** update to webpack ([c5ec6b0](https://github.com/spencer17x/arca/commit/c5ec6b0bd82a325e373ae98e9c50a1fb1ae2ff0d))
-
-
-
 ## [0.0.6](https://github.com/Spencer17x/arca/compare/babylonjs-mtoon-material@0.0.5...babylonjs-mtoon-material@0.0.6) (2023-07-13)
 
 

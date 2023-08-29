@@ -19,6 +19,6 @@ import 'babylonjs-vrm-loader';
 
 ## Examples
 
-* https://playground.babylonjs.com/#K5W35Y#245
-* https://playground.babylonjs.com/#K5W35Y#247
-* https://playground.babylonjs.com/#NHXN10#98
+* https://playground.babylonjs.com/#K5W35Y#229
+* https://playground.babylonjs.com/#K5W35Y#230
+* https://playground.babylonjs.com/#NHXN10#97

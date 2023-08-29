@@ -1,27 +1,3 @@
-## [0.0.9](https://github.com/spencer17x/arca/compare/babylonjs-vrm-loader@0.0.8...babylonjs-vrm-loader@0.0.9) (2023-07-21)
-
-
-### Features
-
-* **babylonjs-vrm-loader:** update webpack config ([5fe7f3d](https://github.com/spencer17x/arca/commit/5fe7f3db7357875c194315a00a982c0db912b19d))
-
-
-
-## [0.0.8](https://github.com/spencer17x/arca/compare/babylonjs-vrm-loader@0.0.8-beta.2...babylonjs-vrm-loader@0.0.8) (2023-07-21)
-
-
-### Bug Fixes
-
-* **babylonjs-vrm-loader:** use babylonjs-mtoon-material ([055698b](https://github.com/spencer17x/arca/commit/055698b01073038dc20b951a3c49a46e887eb3ba))
-
-
-### Features
-
-* **@spencer17x/babylon-vrm-loader:** suppports 6.x ([94e1332](https://github.com/spencer17x/arca/commit/94e1332dae026da2e69e7cc4904e0f4dcb9c0356))
-* **babylonjs-vrm-loader:** update to webpack ([f63e1d0](https://github.com/spencer17x/arca/commit/f63e1d07b2540e48aaf772c715f98fec9a87383c))
-
-
-
 ## [0.0.8-beta.2](https://github.com/Spencer17x/arca/compare/babylonjs-vrm-loader@0.0.8-beta.1...babylonjs-vrm-loader@0.0.8-beta.2) (2023-07-18)
 
 

@@ -1,28 +1,39 @@
 {
-    "compilerOptions": {
-        "importHelpers": true,
-        "moduleResolution": "node",
-        "module": "esNext",
-        "target": "es2017",
-        "declaration": true,
-        "sourceMap": true,
-        "experimentalDecorators": true,
-        "noImplicitAny": true,
-        "noImplicitReturns": true,
-        "noImplicitThis": true,
-        "noUnusedLocals": true,
-        "strictNullChecks": true,
-        "strictFunctionTypes": true,
-        "skipLibCheck": true,
-        "forceConsistentCasingInFileNames": true,
-        "strictPropertyInitialization": false, // @serialize decorator
-        "lib": [
-            "dom",
-        ],
-        "outDir": "dist"
-    },
-    "include": [
-        "./src/**/*",
-        "./index.d.ts",
-    ]
+  "compilerOptions": {
+    /* Bundler mode */
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+
+    /* Linting */
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+
+    "importHelpers": true,
+    "moduleResolution": "Node",
+    "module": "ESNext",
+    "target": "ES2017",
+    "declaration": true,
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "strictPropertyInitialization": false, // @serialize decorator
+    "lib": [
+      "ES2020",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "outDir": "dist"
+  },
+  "include": ["src"],
+  "references": [{ "path": "./tsconfig.node.json" }]
 }
