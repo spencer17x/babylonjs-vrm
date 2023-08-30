@@ -19,6 +19,7 @@
     "@changesets/cli": "^2.26.2",
     "@manypkg/get-packages": "^2.2.0",
     "ar-changelog": "^4.0.2",
+    "conventional-changelog-cli": "^4.0.0",
     "git-cz": "^4.9.0"
   }
 }
